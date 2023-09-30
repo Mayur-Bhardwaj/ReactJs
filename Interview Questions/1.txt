@@ -1,0 +1,18 @@
+1. What is the alternative of npm ?
+Ans: Yarn.
+
+2. What is package.json ?
+Ans: It contains the file name, version,package name and dependencies.It is also the important file.
+
+3. What is package.lock.json ?
+Ans: It contains the details of the package.json.
+
+4. If we do add our name to run command ?
+Ans: npm run mayur.
+
+5. What is component ?
+Ans: A part of machine. Or A piece of code that can be reuse.Such as Function.
+
+6. Types of Component ?
+Ans: a) Functional Component    b) Class Component  c) HOC(High Order Component)
+d) Pure Component   e) Controlled Component     f)Uncontrolled Component
