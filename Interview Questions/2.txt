@@ -1,0 +1,18 @@
+1. In Functional Component we can create a component inside component ?
+Ans: Yes. Ex:--
+
+import React from "react";
+
+function app(){
+
+function apple(){
+    return(<h1>Apple Component. </h1>)
+}
+return(
+    <div className="App">
+    <h1>Hello</h1>
+    </div>
+);
+}
+
+export default App; 
