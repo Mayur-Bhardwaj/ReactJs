@@ -7,6 +7,7 @@ function Props(prop){
 }
 
 export default Props;
+
 // function Properties({title}){
 //     return(
 //         <div>
