@@ -1,0 +1,18 @@
+Rules of converting HTML to JSX.
+
+1. Use DIV Tag (<div></div>) or either React Fragment (<></>) 
+2. For make class we use keyword className.
+3. App is used as a function used as a component (Ex: App(),  <App/>)
+4. Not Started with small case use as a capital letter. (Ex: <app/> x  <App/>)
+5. If there is more than one line then use fragments (Ex: <></>)
+6. In HTML it is not necessary to close the tag but in React it is necessary to close the tag (Ex: <Component />)
+7. The numbers cannot be wriiten in double quotes whereas the name or the srting is written in double quotes. (Ex: <Component name="A" />, Ex: <Component age={23}/>)
+8. Object should be in double curly braces. (Ex: <Component style={{color:'red'}}/>)
+9. In JSX the variable should be written in camel case. (Ex: <Component style={{ backgroundColor:'red'}}/>)
+10. Props Ex: <Component name="A" age={23} />
+function Component({name,age})   or
+function Component(Props){            ||    function Component({name}){              
+    return(                           ||    return(
+        <p> Name: {Props.name} </p>   ||    <p> Name: {name} </p>
+    )                                 ||    )
+}                                     ||    }
