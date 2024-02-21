@@ -1,19 +1,20 @@
+// function Props(prop){
+//     return(
+//         <div>
+//             <h1>Hello {prop.name} </h1>
+//         </div>
+//     );
+// }
+// export default Props;
+
+// Now we change the name of the props
+
 function Props(prop){
     return(
         <div>
-            <h1>{prop.title}</h1>
+        <h1>Hello {prop.name} </h1>
+      {/* <h1>Email: {prop.email} </h1> */}  
         </div>
-    );
+    )
 }
-
 export default Props;
-
-// function Properties({title}){
-//     return(
-//         <div>
-//         <img src= "https://loremflickr.com/640/360" alt ="This is an dummy image" />
-//         <div className="" style={{backgroundColor: 'red'}}>{title}</div>
-//     </div>
-//     );
-// }
-// export default Properties;
